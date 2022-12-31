@@ -1,0 +1,274 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}   
+
+
+@media screen and (min-width: 992px) and (max-width: 3000px){
+*{
+    max-width: 1400px;
+}
+    header {
+    margin-top: 54px;
+}
+
+
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    
+}
+.flexstart {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.flexend{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.flexbetween{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h4P{
+    line-height: 8px;
+    margin-top: 55px;
+}
+.taille {
+    width: 25%;
+}
+
+.buttonMenu{
+    width: 381px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+
+} 
+}
+
+.icon {
+    width: 22px;
+    height: 13px;
+    text-align: center;
+    
+
+}
+.infoBar{
+    width: 447px;
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.elipse-infoBar { 
+    width: 24px;
+    height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+@media screen and (min-width: 776px) and (max-width: 992px) {
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .logo {
+        width: 61.09px;
+        height: 19px;
+        
+    }
+    .flexstart {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+    }
+    
+    .flexend{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+    
+    .flexbetween{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .taille {
+        width: 25%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and ( max-width: 991px) {
+    *{
+        max-width: 991px;
+        
+    }
+    .flexstart {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    
+    .flexend{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+    
+    .flexbetween{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .taille {
+        width: 25%;
+    }
+
+}
+
+@media  screen and (min-width: 376px) and (max-width: 767px) {
+    *{ 
+        max-width: 767px;
+       
+    }
+    
+    body {
+        width: 767px;
+      
+        
+    }
+    
+    .flexstart{ 
+        width: 100%;
+        text-align: center;
+    }
+    .navcenter {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .h4P{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        line-height: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .h4P h4{
+        font-size: 22px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 375px) {
+*{
+    max-width: 375px;
+}
+   body { 
+    max-width: 375px;
+    margin-left: 0px;
+
+   }
+    
+    .flexstart {
+        margin-left: 157px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .flexend{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+    
+    .flexbetween{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo{
+        width: 62px;
+        height: 19px;
+        
+    }
+    .h4P{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .h4P h4{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .infoBar{
+        margin-top: 160px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items:center;
+        
+       
+    }
+    .infoBar p{
+        width: 298px;
+        height: 57px;
+        margin-right: 20px;
+
+    }
+    .elipse-infoBar { 
+        width: 24px;
+        height: 24px;
+        margin-top: 0px;
+        border: 1px solid #D9D9D9;
+        border-radius: 20px;
+        display: flex;
+        
+        
+        
+    }
+
+}
+
+ 
