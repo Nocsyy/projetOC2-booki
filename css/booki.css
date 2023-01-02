@@ -4,15 +4,20 @@
     font-family: 'Raleway', sans-serif;
 }   
 
-
-@media screen and (min-width: 992px) and (max-width: 3000px){
-*{
+body{
     max-width: 1400px;
 }
-    header {
-    margin-top: 54px;
+.mainContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    width: 22px;
+    height: 22px;
 }
 
+
+@media screen and (min-width: 992px) and (max-width: 3000px){
 
 
 body{
@@ -37,9 +42,21 @@ body{
     justify-content: flex-end;
     justify-content: space-around;
 }
-
+.lineBlue{
+    margin-top: 1px;
+    border-top: 1px solid transparent;
+}
+.lineBlue:hover{
+    
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+.colorBlue:hover{
+    color:#0065FC;
+    cursor: pointer;
+}
 .flexbetween{
-    margin-top: 45px;
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,7 +82,7 @@ body{
 
 .icon {
     width: 22px;
-    height: 13px;
+    height: 22px;
     text-align: center;
     
 
