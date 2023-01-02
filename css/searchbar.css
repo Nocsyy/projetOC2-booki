@@ -37,8 +37,13 @@
     border-top-left-radius: 20px;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
-
+}
+.test i{
+    width: 14px;
+    height: 18px;
+    color: black;
 }
 }
 @media  screen and (min-width: 376px) and (max-width: 767px) {
