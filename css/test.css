@@ -837,6 +837,9 @@
 
 
 @media screen and (min-width : 50px) and (max-width: 375px) {
+    body{
+        width: 375px;
+    }
     .blockPrincipal {
         display: flex;
         flex-direction: column-reverse;
@@ -844,8 +847,6 @@
     }
 
     .blockGauche {
-        width: 375px;
-        height: 1430px;
         background-color: white;
         display: flex;
         flex-flow: column;
@@ -857,6 +858,7 @@
     .block1 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -875,6 +877,7 @@
     .block2 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -883,6 +886,7 @@
     .block3 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -891,6 +895,7 @@
     .block4 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -899,6 +904,7 @@
     .block5 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -907,6 +913,7 @@
     .block6 {
         width: 335px;
         height: 199px;
+        margin-bottom: 11px;
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
@@ -1054,6 +1061,7 @@
     .titleActiviteMarseille {
         width: 212px;
         margin-top: 105px;
+        margin-left: 20px;
         font-weight: 700;
     }
 

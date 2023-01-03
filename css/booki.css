@@ -7,19 +7,18 @@
 body{
     max-width: 1400px;
 }
-.mainContainer{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .icon{
     width: 22px;
     height: 22px;
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 3000px){
+@media screen and (min-width: 992px) {
 
-
+header{
+    width: 1350px;
+}
 body{
     margin-left: 50px;
     margin-right: 50px;
@@ -31,32 +30,38 @@ body{
     
 }
 .flexstart {
+    margin-top: 40px;
     display: flex;
     justify-content: flex-start;
-    margin-left: 0px;
+    
 }
 
 .flexend{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.lineBlue{
-    margin-top: 1px;
-    border-top: 1px solid transparent;
+.border{
+    width: auto;
+    height: 55px;
+    border: 2px solid white;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    align-items:flex-end ;
 }
-.lineBlue:hover{
-    
-    border-top: 1px solid #0065FC;
-    cursor: pointer;
+
+.border:hover{
+    border-top: 2px solid #0065FC;
+    cursor:pointer;
 }
 .colorBlue:hover{
     color:#0065FC;
     cursor: pointer;
 }
 .flexbetween{
-   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,18 +80,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   
-
 } 
-}
 
-.icon {
-    width: 22px;
-    height: 22px;
-    text-align: center;
-    
-
-}
 .infoBar{
     width: 447px;
     margin-bottom: 39px;
@@ -103,15 +98,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
-
+    text-align: center;
 }
-@media screen and (min-width: 776px) and (max-width: 992px) {
+}
+@media screen and (min-width: 768px) and ( max-width: 991px) {
+    
     body{
         margin-left: 50px;
         margin-right: 50px;
+    }
+    header {
+        width: 900px;
     }
     .logo {
         width: 61.09px;
@@ -119,41 +116,11 @@ body{
         
     }
     .flexstart {
+        margin-top: 40px;
         display: flex;
         justify-content: flex-start;
-        margin-left: 0px;
-    }
-    
-    .flexend{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        justify-content: space-around;
-    }
-    
-    .flexbetween{
-        margin-top: 45px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .taille {
-        width: 25%;
-    }
-
-}
-
-@media screen and (min-width: 768px) and ( max-width: 991px) {
-    *{
-        max-width: 991px;
         
     }
-    .flexstart {
-        display: flex;
-        justify-content: flex-start;
-
-    }
     
     .flexend{
         display: flex;
@@ -161,7 +128,25 @@ body{
         justify-content: flex-end;
         justify-content: space-around;
     }
+    .border{
+        width: auto;
+        height: 55px;
+        border: 2px solid white;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        display: flex;
+        align-items:flex-end ;
+    }
     
+    .border:hover{
+        border-top: 2px solid #0065FC;
+        cursor:pointer;
+    }
+    .colorBlue:hover{
+        color:#0065FC;
+        cursor: pointer;
+    }
     .flexbetween{
         display: flex;
         flex-direction: row;
@@ -171,33 +156,87 @@ body{
     .taille {
         width: 25%;
     }
+    .buttonMenu{
+        
+       
+    
+    } 
+    .icon {
+        width: 22px;
+        height: 22px;
+        text-align: center;
+    }
+    
+    .infoBar{
+        width: 447px;
+        margin-bottom: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .elipse-infoBar { 
+        width: 24px;
+        height: 24px;
+        border: 1px solid #D9D9D9;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
+
 
 @media  screen and (min-width: 376px) and (max-width: 767px) {
     *{ 
         max-width: 767px;
        
     }
-    
-    body {
+    header{
         width: 767px;
-      
-        
+    }
+    body {
+        max-width: 767px;
+
     }
     
-    .flexstart{ 
-        width: 100%;
-        text-align: center;
-    }
-    .navcenter {
-        width: 100%;
-        margin-top: 50px;
+    .flexstart {
+        margin-bottom: 50px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
-
+    
+    .flexend{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+    .border{
+        width: 100%;
+        height: 40px;
+        border: 3px solid #F2F2F2;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    
+    .border:hover{
+        border-bottom: 2px solid #0065FC;
+        cursor:pointer;
+    }
+    .colorBlue:hover{
+        color:#0065FC;
+        cursor: pointer;
+    }
+    .flexbetween{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
     .h4P{
         margin-top: 40px;
         margin-bottom: 20px;
@@ -210,7 +249,34 @@ body{
         font-size: 22px;
     }
 
+    .icon {
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        
     
+    }
+    .infoBar{
+        width: 447px;
+        margin-bottom: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .elipse-infoBar { 
+        width: 24px;
+        height: 24px;
+        border: 1px solid #D9D9D9;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    
+    }
 }
 
 
@@ -218,17 +284,23 @@ body{
 *{
     max-width: 375px;
 }
+header{
+    width: 375px;
+}
+
    body { 
     max-width: 375px;
     margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
 
    }
     
     .flexstart {
-        margin-left: 157px;
         margin-bottom: 50px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     
     .flexend{
@@ -237,7 +309,23 @@ body{
         justify-content: flex-end;
         justify-content: space-around;
     }
+    .border{
+        width: 100%;
+        height: 40px;
+        border: 3px solid #F2F2F2;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
     
+    .border:hover{
+        border-bottom: 2px solid #0065FC;
+        cursor:pointer;
+    }
+    .colorBlue:hover{
+        color:#0065FC;
+        cursor: pointer;
+    }
     .flexbetween{
         display: flex;
         flex-direction: column;
@@ -259,7 +347,6 @@ body{
     }
 
     .infoBar{
-        margin-top: 160px;
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
@@ -268,24 +355,23 @@ body{
         
        
     }
-    .infoBar p{
-        width: 298px;
-        height: 57px;
-        margin-right: 20px;
-
-    }
     .elipse-infoBar { 
         width: 24px;
         height: 24px;
         margin-top: 0px;
+        margin-left: 20px;
         border: 1px solid #D9D9D9;
         border-radius: 20px;
         display: flex;
-        
-        
-        
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+    }
+    .line-info{
+        margin-left: 10px;
+        display: flex;
+        flex-flow: row wrap;
+
     }
 
 }
-
- 
