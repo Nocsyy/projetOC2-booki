@@ -1,4 +1,4 @@
-@media  screen and (min-width: 768px) and (max-width: 3000px) {
+@media  screen and (min-width: 768px) {
 #searchbar{
     width: 236px;
     height: 43px;
@@ -121,7 +121,7 @@
     }
     #searchButtonLogo i{
         color: white;
-        font-size: ;
+        
     }
     .search {
         margin-top: 36px;

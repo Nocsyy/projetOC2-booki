@@ -1,12 +1,21 @@
-* {
+* { 
+   
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
+    
 }   
 
 body{
     max-width: 1400px;
+    width: 1400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
+
 
 .icon{
     width: 22px;
@@ -14,16 +23,14 @@ body{
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px)  {
 
-header{
-    width: 1350px;
-}
-body{
-    margin-left: 50px;
-    margin-right: 50px;
-}
+.mainContainer{
+      margin-left: 50px;
+      margin-right: 50px;
+  
 
+}
 .logo {
     width: 61.09px;
     height: 19px;
@@ -40,7 +47,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .border{
     width: auto;
@@ -71,7 +78,7 @@ body{
     margin-top: 55px;
 }
 .taille {
-    width: 25%;
+    width: 20%;
 }
 
 .buttonMenu{
@@ -100,16 +107,22 @@ body{
     align-items: center;
     text-align: center;
 }
+.fa-info {
+    margin-bottom: 3px;
+}
 }
 @media screen and (min-width: 768px) and ( max-width: 991px) {
-    
     body{
+        max-width: 991px;
+        width: 991px;
+    }
+    
+    .mainContainer{
         margin-left: 50px;
         margin-right: 50px;
     }
-    header {
-        width: 900px;
-    }
+    
+    
     .logo {
         width: 61.09px;
         height: 19px;
@@ -126,7 +139,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        justify-content: space-around;
+        justify-content: space-around
     }
     .border{
         width: auto;
@@ -156,11 +169,6 @@ body{
     .taille {
         width: 25%;
     }
-    .buttonMenu{
-        
-       
-    
-    } 
     .icon {
         width: 22px;
         height: 22px;
@@ -196,6 +204,7 @@ body{
     }
     header{
         width: 767px;
+        margin-top: 21px;
     }
     body {
         max-width: 767px;
@@ -286,6 +295,8 @@ body{
 }
 header{
     width: 375px;
+    margin-top: 21px;
+    
 }
 
    body { 
@@ -294,6 +305,10 @@ header{
     margin-left: auto;
     margin-right: auto;
 
+   }
+   .marginHeaderSizeSmall {
+    margin-left: 20px;
+    margin-right: 20px;
    }
     
     .flexstart {
@@ -350,15 +365,16 @@ header{
         margin-bottom: 20px;
         display: flex;
         flex-direction: row;
+        font-size: 16px;
         justify-content: space-evenly;
         align-items:center;
         
        
     }
     .elipse-infoBar { 
-        width: 24px;
+        width: 34px;
         height: 24px;
-        margin-top: 0px;
+        margin-top: -20px;
         margin-left: 20px;
         border: 1px solid #D9D9D9;
         border-radius: 20px;
@@ -373,5 +389,10 @@ header{
         flex-flow: row wrap;
 
     }
+    .fa-info{
+        font-size: 16px ;
+        
+    }
+    
 
 }
