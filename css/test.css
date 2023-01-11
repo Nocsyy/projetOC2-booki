@@ -50,7 +50,9 @@
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
-        line-height: 0px;
+        line-height: 9px;
+        display: flex;
+        flex-direction: column
     }
     .block3 {
         width: 246px;
@@ -58,7 +60,9 @@
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
-        line-height: 0px;
+        line-height: 9px;
+        display: flex;
+        flex-direction: column
     }
     .block4 {
         width: 246px;
@@ -66,7 +70,9 @@
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
-        line-height: 0px;
+        line-height: 9px;
+        display: flex;
+        flex-direction: column
     }
     .block5 {
         width: 246px;
@@ -74,7 +80,9 @@
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
-        line-height: 0px;
+        line-height: 9px;
+        display: flex;
+        flex-direction: column
     }
     .block6 {
         width: 246px;
@@ -82,7 +90,9 @@
         background-color: white;
         border-radius: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
-        line-height: 0px;
+        line-height: 9px;
+        display: flex;
+        flex-direction: column
     }
 
     .photo {
