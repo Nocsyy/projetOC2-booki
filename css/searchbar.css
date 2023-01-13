@@ -47,54 +47,7 @@
 }
 }
 
-/*@media  screen and (min-width: 376px) and (max-width: 767px) {
 
-    #searchbar{
-        width: 332px;
-        height: 43px;
-        border: 2px solid #F2F2F2;
-    }
-    ::placeholder{
-        color: black;
-        font-weight: 700;
-        padding-left: 10px;
-       
-    }
-    #searchButton {
-        width: 132px;
-        height: 49px;
-        background-color: #0065FC;
-        border-style: none;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        color: white;
-        font-weight: 700;
-        
-    }
-    #searchButtonLogo{ 
-        display: none;
-    }
-    
-    .search {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
-
-    .test{
-        width: 49px;
-        background-color: #F2F2F2;
-        border-style: none;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-
-     }*/
 @media screen and (max-width: 767px) {
     #searchbar{
         width: 70%;
