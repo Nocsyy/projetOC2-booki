@@ -27,6 +27,10 @@ body{
     flex-direction: row;
     align-items: baseline;
 }
+.square-info{
+    width: 24px;
+    height: 24px;
+ }
 .elipse-infoBar { 
     width: 24px;
     height: 24px;

@@ -29,6 +29,8 @@
 .flex-flow-h3i{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -139,10 +141,6 @@
         justify-content: space-between;
 
 }
-.margin-left{
-    margin-left: 40px;
-    
-}
 .titreActivite{
     margin-left: 19px;
 }
@@ -172,6 +170,12 @@
 }
 .star{
     margin-bottom: 12px;
+}
+.margin-left{
+    margin-left: 40px;
+}
+.margin-title{
+    margin-top : 42px;
 }
 a {
     color: black;

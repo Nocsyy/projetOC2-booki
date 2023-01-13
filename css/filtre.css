@@ -6,6 +6,7 @@ i {
     display: flex;
     align-items: center;
  }
+ 
 @media screen and (min-width: 992px) {
 .filter {
     width: 914px;
