@@ -47,7 +47,7 @@
 }
 }
 
-@media  screen and (min-width: 376px) and (max-width: 767px) {
+/*@media  screen and (min-width: 376px) and (max-width: 767px) {
 
     #searchbar{
         width: 332px;
@@ -94,10 +94,10 @@
     
     }
 
-     }
-@media screen and (min-width: 100px) and (max-width: 375px) {
+     }*/
+@media screen and (max-width: 767px) {
     #searchbar{
-        width: 239px;
+        width: 70%;
         height: 43px;
         border: 2px solid #F2F2F2;
         font-weight: 700;
@@ -113,7 +113,7 @@
         
     }
     #searchButtonLogo{  
-        width: 49px;
+        width: 15%;
         background-color: #0065FC;
         border-style: none;
         border-top-right-radius: 20px;
@@ -131,7 +131,7 @@
     }
     
     .test{
-        width: 49px;
+        width: 15%;
         background-color: #F2F2F2;
         border-style: none;
         border-bottom-left-radius: 20px;

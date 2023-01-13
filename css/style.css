@@ -1,0 +1,389 @@
+
+    
+
+.flex-hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.flex-flow-activite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.flex-flow-h3i{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.flex-center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sizeHebergement{
+    flex: 2;
+    height: 626px;
+    margin-right: 30px;
+    border-radius: 20px;
+
+}
+
+.sizePopulaire{
+    flex: 0.9;
+    height: 626px;
+    border-radius: 20px;
+}
+
+.sizeActivite{
+    width: 100%;
+    height: ;
+}
+
+.bloc-hebergement {
+    width: 27%;
+    height: 199px;
+    padding: 0.6%;
+    background-color: white;
+    border-radius: 20px;
+    
+    filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+
+    
+}   
+
+.bloc-populaire {
+    width: 85%;
+    height: 144px;
+    padding: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    line-height: 9px;
+    filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+    
+}
+
+.bloc-activite {
+    width: 22%;
+    height: 444.51px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+}
+.background-grey{
+    background-color: #F2F2F2;
+}
+.bloc-photo-hebergement{
+    width:100%;
+    height: 124px;
+}
+.bloc-img-populaire{
+    width: 40%; 
+    height: 144px;
+    
+}
+.photo {
+    object-fit: cover;
+    width: 100%;
+    height: 124px;
+    border-radius: 15px 15px 0 0;
+}
+.photoPopulaire{
+    object-fit: cover;
+    width: 100%; 
+    height: 144px;
+    border-radius: 15px 0 0 15px;
+
+}
+.photoActivite{
+    object-fit: cover;
+    width: 100%;
+    height: 389px;
+    border-radius: 15px 15px 0 0;
+}
+.description-hebergement{
+    whith: 100%;
+    height:75px;
+    margin-left: 16px;
+    display :flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.description-img-populaire{
+         width: 55%;
+        height: 144px;
+        margin-left: 5%;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+}
+.margin-left{
+    margin-left: 40px;
+    
+}
+.titreActivite{
+    margin-left: 19px;
+}
+.background-herbergement{
+    background-color: #F2F2F2;
+}
+.background-populaire{
+    background-color: #F2F2F2;
+}
+.titreHebergement{
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.prixHebergement{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.titlePopulaire{
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+.prixPopulaire{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.star{
+    margin-bottom: 12px;
+}
+a {
+    color: black;
+}
+}
+@media screen and (min-width: 768px) and ( max-width: 991px) {
+    .flex-hebergement {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .flex-flow-h3i{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+   .flex-center {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+   }
+   .flex-direction-populaire{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+   }
+    .bloc-populaire {
+        width: 28%;
+        height: 144px;
+        background-color: white;
+        padding: 0.5%;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+        
+    }
+    .bloc-activite {
+        width: 22%;
+        height: 267px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+    }
+
+    .sizePopulaire{
+        width: 100%;
+        height: 278px;
+        border-radius: 20px;
+    }
+    .sizeHebergement{
+        flex: 100%;
+        height: 626px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    
+    }
+    
+    .photoActivite{
+        object-fit: cover;
+        width: 100%;
+        height: 211px;
+        border-radius: 15px 15px 0 0;
+    }
+    .description-img-populaire{
+        width: 55%;
+       height: 144px;
+       margin-left: 3%;
+       line-height: 13px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+
+}
+}
+
+@media screen and (max-width: 767px) {
+    .flex-hebergement {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .flex-flow-activite{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+        
+    }
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .flex-column-hebergement{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+    .sizePopulaire{
+        width: 100%;
+        height: 580px;
+        border-radius: 0px;
+    }
+    .sizeHebergement{
+        flex: 100%;
+        height:auto;
+        margin-right: 0;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    
+    }   
+    .bloc-hebergement {
+        width: 90%;
+        height: 199px;
+        padding: 0.6%;
+        background-color: white;
+        border-radius: 20px;
+        line-height: 0px;
+        filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+        margin-bottom: 12px;
+        
+        
+    }   
+    
+    .bloc-populaire {
+        width: 90%;
+        height: 144px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        
+    }
+    .bloc-activite {
+        width: 90%;
+        height: 190px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 0.75rem rgb(198, 197, 197));
+    }
+    .bloc-img-populaire{
+        width: 40%; 
+        height: 144px;
+       
+    }
+    .description-img-populaire{
+        width: 55%;
+        height: 144px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+   
+    .photoPopulaire{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px 0 0 15px;
+        padding: 0%;
+    
+    }
+    .photoActivite{
+        object-fit: cover;
+        width: 100%;
+        height: 134px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .background-grey{
+        background-color: #F2F2F2;
+    }
+    .background-color{
+        background-color: white;
+    }
+   .background-herbergement{
+    background-color: white;
+   }
+    .display-responsive{
+        display: none;
+    }
+    .titleActiviteMarseille{
+        width: 45%;
+        margin-top: 105px;
+        margin-left: 20px;
+    }
+    .margin-bottom{
+        margin-bottom: 50px;
+    }
+    .titreHebergement{
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .prixHebergement{
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .star{
+        margin-bottom: 12px;
+    }
+    }
