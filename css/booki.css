@@ -8,12 +8,10 @@
 
 body{
     max-width: 1400px;
-    width: ;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 
@@ -184,7 +182,6 @@ header{
 }
 
    body { 
-    max-width: auto;
     margin-left: 0px;
     margin-left: auto;
     margin-right: auto;
